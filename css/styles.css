@@ -22,6 +22,12 @@ p {
   color: red;
 }
 
+.inthemiddle {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 button {
   background-color: #BEA985 ;
 }
