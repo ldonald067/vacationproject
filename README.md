@@ -10,7 +10,7 @@
 This is a webpage (using HTML, CSS, JavaScript and jQuery) where a user can answer questions about themselves and be given a vacation destination based on their answers.
 
 ## Setup/Installation Requirements
-* You can view the webpage here https://ldonald067.github.io/vacationproject/
+* You can view the webpage here https://ldonald067.github.io/vacationproject.git
 * Clone the repository https://github.com/ldonald067/vacationproject
 * Open the index.html file in your chosen web browser
 
