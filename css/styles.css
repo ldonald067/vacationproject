@@ -21,3 +21,23 @@ p {
   background-color: black;
   color: red;
 }
+
+button {
+  background-color: #BEA985 ;
+}
+
+button.btn:hover {
+  color: green;
+  background-color: #372B1E;
+}
+
+h3, h2 {
+  text-align: center;
+  color: #FF7466;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+}
