@@ -23,3 +23,24 @@ $(document).ready(function() {
       $("#none").show();
       $("#vaca").hide();
     }
+
+    $("#redoThai").click(function() {
+      location.reload();
+    });
+
+    $("#redoLa").click(function() {
+      location.reload();
+    });
+
+    $("#redoScand").click(function() {
+      location.reload();
+    });
+
+    $("#redoNone").click(function() {
+      location.reload();
+    });
+
+    event.preventDefault();
+
+  });
+});
