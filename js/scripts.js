@@ -6,3 +6,20 @@ $(document).ready(function() {
     topics.forEach(function(blank) {
       userAnswer += parseInt($("select#" + blank).val());
     });
+
+    if (userAnswer <= 5) {
+      $("#scand").show();
+      $("#vaca").hide();
+    }
+    else if (userAnswer === 6 || userAnswer >= 8 && userAnswer <= 10) {
+      $("#thai").show();
+      $("#vaca").hide();
+    }
+    else if (userAnswer === 11 || userAnswer >= 13) {
+      $("#la").show();
+      $("#vaca").hide();
+    }
+    else if (userAnswer === 7 || userAnswer === 12) {
+      $("#none").show();
+      $("#vaca").hide();
+    }
