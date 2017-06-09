@@ -1,0 +1,23 @@
+#thai, #scand, #la, #none {
+  display: none;
+}
+
+body {
+  font-style: italic;
+}
+
+.jumbotron {
+  color: pink;
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+  color: blue;
+}
+
+.container {
+  width: 70%;
+  background-color: black;
+  color: red;
+}
